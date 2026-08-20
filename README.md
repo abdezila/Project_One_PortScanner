@@ -13,3 +13,10 @@
 - Adjustable concurrency level to control scan speed and network load
 - Connection timeout configuration to handle filtered ports gracefully
 - Clean terminal output showing open, closed, and filtered port states
+# Quick Start
+```
+mkdir build && cd build
+cmake ..
+make
+./simplePortScanner --target 192.168.1.1 --ports 1-1024
+```
