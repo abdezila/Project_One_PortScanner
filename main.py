@@ -16,7 +16,7 @@ args = parser.parse_args()
 async def main():
     scanner = PortScanner()
     scanner.set_options(
-        host =args.host,
+        host=args.ip,
         ports=args.ports,
         threads=args.threads,
         timeout=args.timeout,
